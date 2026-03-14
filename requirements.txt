@@ -1,0 +1,13 @@
+llama-index
+python-dotenv
+Ipython
+streamlit
+llama-index-llms-google-genai
+google-genai
+pypdf
+tensorflow-macos
+tensorflow
+tensorflow-metal
+
+## build the package
+-e .
