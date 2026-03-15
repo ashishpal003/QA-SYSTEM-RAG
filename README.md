@@ -1,7 +1,3 @@
-Here is a **clean, professional GitHub README** version of your content. It is structured like a **top open-source repo README** with clear sections, badges, and improved formatting.
-
----
-
 # 📚 QA System for Local Documents using RAG
 
 A **Retrieval-Augmented Generation (RAG) pipeline** that enables question answering over local documents using:
@@ -233,14 +229,3 @@ Contributions are welcome!
 # 📜 License
 
 MIT License
-
----
-
-If you'd like, I can also give you:
-
-* **A downloadable `README.md` file**
-* **A more advanced README with diagrams**
-* **A RAG architecture diagram (like top AI repos)**
-* **A GitHub repo structure used by companies like OpenAI/LangChain**
-
-Just tell me 👍
