@@ -3,6 +3,11 @@ from src.logger import logging
 from src.exceptions import MyCustomeException
 
 from llama_index.core import SimpleDirectoryReader
+from llama_index.core import Settings
+
+# View or change defaults
+Settings.chunk_size = 512    # Smaller chunks for more precision
+Settings.chunk_overlap = 50 
 
 def load_documents(data_path: str):
     """
@@ -16,7 +21,7 @@ def load_documents(data_path: str):
     """
     try:
         logging.info("data loading started...")
-        loader = SimpleDirectoryReader(input_files=[data_path])
+        loader = SimpleDirectoryReader(input_dir=data_path)
         documents = loader.load_data(show_progress=True)
         logging.info("data loading completed...")
         return documents

@@ -27,12 +27,12 @@ from src.query_model.query_engine_setup import set_llm_model, create_query_engin
 
 from llama_index.core import Settings
 
-# document_path = "Complex-queries.pdf"
-# document = load_documents(document_path)
+document_path = "/Users/ashishpal/Documents/ML Books"
+document = load_documents(document_path)
 
-# index = transform_data(document)
+index = transform_data(document)
 
-# store_vectors(index=index)
+store_vectors(index=index)
 
 embed_model = embedding_model()
 local_index = load_the_index(embed_model)
@@ -41,6 +41,6 @@ local_index = load_the_index(embed_model)
 llm = set_llm_model()
 query_engine = create_query_engine(local_index, llm)
 
-respose = query_engine.query("How to generate primary key values?")
+respose = query_engine.query("What is machine learning?")
 
-print(respose)
+print(respose.response)
