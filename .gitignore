@@ -208,3 +208,6 @@ __marimo__/
 
 notebook/
 benchmarking.py
+projectflow.txt
+Complex-queries.pdf
+vector_store/

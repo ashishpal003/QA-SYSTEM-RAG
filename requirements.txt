@@ -8,6 +8,8 @@ pypdf
 tensorflow-macos
 tensorflow
 tensorflow-metal
-
+llama-index-embeddings-google-genai
+llama-index-embeddings-huggingface
+sentence-transformers
 ## build the package
 -e .
